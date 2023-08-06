@@ -1,0 +1,22 @@
+:root {
+    --Red: hsl(0, 100%, 74%);
+    --Green: hsl(154, 59%, 51%);
+    --AccentBlue: hsl(248, 32%, 49%);
+    --NeutralDarkBlue: hsl(249, 10%, 26%);
+    --NeutralGrayishBlue: hsl(246, 25%, 77%);
+  }
+.form-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--NeutralGrayishBlue);
+    
+    width: 50%;
+    height: 50%;
+}
+input {
+    font-size: 1rem;
+    margin: 1rem;
+    width: 20rem;
+}

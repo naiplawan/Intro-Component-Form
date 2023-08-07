@@ -10,13 +10,47 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--NeutralGrayishBlue);
-    
-    width: 50%;
-    height: 50%;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 0.5rem;
+
+    width: 35rem;
+    height: 35rem;
+
+    box-shadow: 0px 16px 5px -2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 16px 5px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 16px 5px -2px rgba(0,0,0,0.5);
 }
-input {
-    font-size: 1rem;
+input,button {
+    font-size: 2rem;
     margin: 1rem;
-    width: 20rem;
+    padding: 0.5rem;
+    width: 30rem;
+    border-radius: 0.5rem;
+}
+.description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1rem;
+}
+.ads-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+    color: #fff;
+    background-color: var(--AccentBlue);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+
+    box-shadow: 0px 16px 5px -2px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 16px 5px -2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 16px 5px -2px rgba(0,0,0,0.5);
+
 }

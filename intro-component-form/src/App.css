@@ -17,4 +17,12 @@
   background-image: url('./images/bg-intro-desktop.png');
   background-size: cover;
   background-color: var(--Red);
+
+}
+.center-containner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  padding: 1rem;
 }

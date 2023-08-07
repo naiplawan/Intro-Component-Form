@@ -1,0 +1,14 @@
+.text-box-containner{
+    font-size: 2rem;
+    color: aliceblue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.title-box{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 4rem;
+}

@@ -1,0 +1,64 @@
+:root {
+  --Red: hsl(0, 100%, 74%);
+  --Green: hsl(154, 59%, 51%);
+  --AccentBlue: hsl(248, 32%, 49%);
+  --NeutralDarkBlue: hsl(249, 10%, 26%);
+  --NeutralGrayishBlue: hsl(246, 25%, 77%);
+}
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.web-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
+  background-image: url('./images/bg-intro-desktop.png');
+  background-size: cover;
+  background-color: var(--Red);
+
+}
+.center-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}
+.attribution {
+  font-size: 0.7rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+footer{
+  margin: 2%;
+}
+
+@media only screen and (max-width: 375px) {
+  .center-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+  }
+  .web-container{
+    width: 200vw;
+    height: 200vh;
+
+    background-image: url('./images/bg-intro-desktop.png');
+    background-size: cover;
+    background-color: var(--Red);
+  
+  }
+}

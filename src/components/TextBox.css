@@ -1,20 +1,20 @@
-.text-box-containner{
+.text-box-containner {
     font-size: 2rem;
     color: white;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-
     padding: 3.5rem;
-    
-}
-.title-box{
+  }
+  
+  .title-box {
     font-size: 4rem;
     font-weight: 800;
     margin-bottom: 4rem;
-}
-.subtext-box{
+  }
+  
+  .subtext-box {
     font-size: 1rem;
-}
+  }
+  
